@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let idade = prompt("Qual sua idade?");
+
+        let estaNaLista = prompt("Você está na lista de convidados ou possuí acesso vip? (responda 'sim' ou 'não'):");
+    
+        if (idade >= 18 && (estaNaLista.toLowerCase() === 'sim')) {
+            document.write("Acesso concedido!");
+        } else {
+            document.write("Desculpe, você não pode acessar a festa.");
+        }
+    </script>
+</body>
+
+</html>
